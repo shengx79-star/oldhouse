@@ -1,0 +1,83 @@
+name: Daily Property Search & Notion Sync
+
+on:
+  schedule:
+    # 9:00 AM JST = 0:00 UTC (Fukei)
+    - cron: '0 0 * * *'
+    # 10:00 AM JST = 1:00 UTC (Minshuku)
+    - cron: '0 1 * * *'
+    # 11:00 AM JST = 2:00 UTC (Camping)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which job to run'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - fukei
+          - minshuku
+          - camping
+
+jobs:
+  fukei:
+    name: Fukei Search (瑕疵房源)
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'fukei' || github.event.inputs.job == 'all') ||
+      github.event_name == 'schedule' && startsWith(github.event.schedule, '0 0')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm install
+      - name: Search & Generate Report
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: node scripts/search-fukei.js
+      - name: Sync to Notion
+        run: node scripts/sync-notion.js
+
+  minshuku:
+    name: Minshuku Search (民宿改造)
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'minshuku' || github.event.inputs.job == 'all') ||
+      github.event_name == 'schedule' && startsWith(github.event.schedule, '0 1')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm install
+      - name: Search & Generate Report
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: node scripts/search-minshuku.js
+      - name: Sync to Notion
+        run: node scripts/sync-notion.js minshuku_report -t "民宿改造可能房源レポート" -p 33a127cc505b80d8811ef70ad048943b
+
+  camping:
+    name: Camping Land Search (露営地用地)
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'camping' || github.event.inputs.job == 'all') ||
+      github.event_name == 'schedule' && startsWith(github.event.schedule, '0 2')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm install
+      - name: Search & Generate Report
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: node scripts/search-camping.js
+      - name: Sync to Notion
+        run: node scripts/sync-notion.js camping_report -t "瀬戸内露営地用地レポート" -p 347127cc505b80eaacccd0a7350f38ff

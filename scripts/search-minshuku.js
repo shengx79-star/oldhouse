@@ -177,15 +177,68 @@ function generateReport(properties) {
   return report;
 }
 
-// 模拟搜索结果（实际使用时由tavily搜索填充）
+async function tavilySearch(query, apiKey) {
+  const res = await fetch("https://api.tavily.com/search", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      api_key: apiKey,
+      query,
+      search_depth: "advanced",
+      max_results: 5,
+      include_answer: true,
+    }),
+  });
+  if (!res.ok) throw new Error(`Tavily API error: ${res.status}`);
+  return res.json();
+}
+
 async function searchWithTavily() {
-  console.log("需要使用 tavily MCP 工具进行实际搜索");
-  console.log("搜索条件：");
-  console.log("  - 民宿可能・Airbnb可能・Guesthouse");
-  console.log("  - 4m幅員以上道路接道");
-  console.log("  - 駅徒歩10分以内");
-  console.log("  - 古民家・リノベーション済み");
-  return [];
+  const apiKey = process.env.TAVILY_API_KEY;
+  if (!apiKey) {
+    console.error("TAVILY_API_KEY が設定されていません");
+    return [];
+  }
+
+  const queries = [
+    "東京23区 民宿可能 一戸建 売買",
+    "東京23区 旅館業許可 Guesthouse 一棟",
+    "東京 Airbnb可能 古民家 リノベーション 売買",
+    "東京23区 一棟旅館 民宿経営 売買",
+  ];
+
+  const properties = [];
+  let idCounter = 1;
+
+  for (const query of queries) {
+    console.log(`検索中：${query}`);
+    try {
+      const result = await tavilySearch(query, apiKey);
+      for (const item of (result.results || [])) {
+        properties.push({
+          id: `minshuku_${idCounter++}`,
+          name: item.title || query,
+          address: "東京23区",
+          price: "要確認",
+          landArea: "要確認",
+          buildingArea: "要確認",
+          layout: "要確認",
+          age: "要確認",
+          minshukuConditions: "要確認",
+          roadAccess: "要確認",
+          renovationPotential: result.answer || "",
+          url: item.url || "",
+          minshukuTag: "?",
+          roadTag: "?",
+        });
+      }
+      await new Promise(r => setTimeout(r, 500));
+    } catch (e) {
+      console.error(`検索エラー [${query}]: ${e.message}`);
+    }
+  }
+
+  return properties;
 }
 
 // Main
