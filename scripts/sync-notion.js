@@ -177,9 +177,18 @@ function parseMarkdownToBlocks(markdown) {
       continue;
     }
 
+    // Standalone link [text](url) → bookmark block
+    const standaloneLink = line.trim().match(/^\[.+?\]\((.+?)\)$/);
+    if (standaloneLink) {
+      blocks.push({
+        type: "bookmark",
+        bookmark: { url: standaloneLink[1] }
+      });
+      continue;
+    }
+
     // Paragraph
     if (line.trim()) {
-      // Handle bold text (**text**)
       const richText = parseInlineFormatting(line);
       blocks.push({
         type: "paragraph",
