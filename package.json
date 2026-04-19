@@ -1,0 +1,16 @@
+{
+  "name": "oldhouse",
+  "version": "1.0.0",
+  "description": "监控日本\"再建築不可\"等瑕疵房产的投资机会，支持东京23区全区域搜索。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@notionhq/client": "^5.16.0"
+  }
+}
