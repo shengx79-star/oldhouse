@@ -87,7 +87,7 @@ function generateReport(properties) {
 | **瑕疵内容** | ${p.defectType || "要確認"} |
 
 `;
-      if (p.url) report += `**[物件詳細](${p.url})**\n`;
+      if (p.url) report += `[物件詳細](${p.url})\n`;
       report += `---\n\n`;
     });
   }

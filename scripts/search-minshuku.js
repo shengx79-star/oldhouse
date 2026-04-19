@@ -151,7 +151,7 @@ function generateReport(properties) {
 
 `;
     if (p.url) {
-      report += `**🔗 [物件詳細ページ](${p.url})**\n`;
+      report += `[物件詳細ページ](${p.url})\n`;
     }
     report += `---\n\n`;
   });
