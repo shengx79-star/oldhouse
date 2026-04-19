@@ -58,7 +58,7 @@ node scripts/sync-notion.js camping_report -t "瀬戸内露営地用地レポー
 
 **Camping (キャンプ場候補地)**:
 - Areas: 宇野港周辺 / 渋川海岸 / 王子が岳 (玉野市・倉敷市, 岡山県)
-- Min size: 1000坪（約3300㎡）以上
+- Min size: 500坪（約1650㎡）以上
 - Must: 海が見える（瀬戸内海望）
 - Keywords: キャンプ場候補地、グランピング用地、山林売地、海望大規模土地
 - Concepts:
