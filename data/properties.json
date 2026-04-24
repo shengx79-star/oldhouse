@@ -1,11 +1,4 @@
 {
-  "last_updated": "2026-04-07",
-  "search_config": {
-    "max_price": 15000000,
-    "keywords": ["再建築不可", "既存不適格", "現状渡し", "境界未確定", "訳あり"],
-    "property_type": "一戸建",
-    "areas": ["千代田区", "中央区", "港区", "渋谷区", "新宿 区", "文京", "台東区", "墨田区", "江東区", "品川区", "目黒区", "大田区", "世田谷区", "渋谷区", "中野区", "杉並区", "豊島区", "北区", "板橋区", "練馬区", "足立区", "葛飾区", "江戸川区", "荒川区"]
-  },
   "properties": [
     {
       "id": "stepon-001",
@@ -24,7 +17,11 @@
       "floor_area_ratio": "150%",
       "zoning": "第１種低層住居専用地域",
       "restriction": "再建築不可",
-      "features": ["再建築不可", "2022年11月改装済み", "空了"],
+      "features": [
+        "再建築不可",
+        "2022年11月改装済み",
+        "空了"
+      ],
       "surrounding": "区立長崎６丁目児童遊園徒步2分/豊島区立さくら小学校徒步1分/セブンイレブン徒步5分",
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_15132070/"
@@ -46,7 +43,12 @@
       "floor_area_ratio": "100%",
       "zoning": "第１種中高層住居専用地域",
       "restriction": "",
-      "features": ["南西向き", "陽当たり良好", "空了", "地上権登記あり"],
+      "features": [
+        "南西向き",
+        "陽当たり良好",
+        "空了",
+        "地上権登記あり"
+      ],
       "surrounding": "ヤマイチ今井店徒步2分/コモディイイダ徒步4分/区立下鎌田小学校徒步5分/西瑞江みのり公園徒步2分",
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_14162027/"
@@ -57,7 +59,9 @@
       "price": "未公開",
       "area": "江戸川区",
       "station": "京成本線「江戸川</minimax:tool_call>徒步5分",
-      "features": ["借地権付き"],
+      "features": [
+        "借地権付き"
+      ],
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_15352036/"
     },
@@ -78,7 +82,12 @@
       "floor_area_ratio": "200%",
       "zoning": "第１種中高層住居専用地域",
       "restriction": "再建築不可（未接道のため）",
-      "features": ["再建築不可", "オーナーチェンジ（現在賃貸中）", "北側公道約3.6mから東側隣地通路を経由してアクセス", "通路部分 無償通行覚書あり"],
+      "features": [
+        "再建築不可",
+        "オーナーチェンジ（現在賃貸中）",
+        "北側公道約3.6mから東側隣地通路を経由してアクセス",
+        "通路部分 無償通行覚書あり"
+      ],
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_15172045/"
     },
@@ -88,7 +97,10 @@
       "price": "未公開",
       "area": "江戸川区",
       "station": "総武線「小岩”工程バス7分徒步7分",
-      "features": ["整形地", "コンビニまで徒步1分"],
+      "features": [
+        "整形地",
+        "コンビニまで徒步1分"
+      ],
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_150M2051/"
     },
@@ -109,7 +121,12 @@
       "floor_area_ratio": "240%",
       "zoning": "準工業地域",
       "restriction": "",
-      "features": ["4路線2駅利用可", "角地", "投資用としても利用可", "空了"],
+      "features": [
+        "4路線2駅利用可",
+        "角地",
+        "投資用としても利用可",
+        "空了"
+      ],
       "surrounding": "ライフ南千住店徒步3分/ポンテポルタ千住徒步9分/天王公園徒步2分",
       "source": "住友不動産ステップ",
       "url": "https://www.stepon.co.jp/kodate/detail_150D2079/"
@@ -123,7 +140,9 @@
       "station": "都営新宿線「西大島》记者5分",
       "land_area": "93.28m²",
       "building_area": "92.33m²",
-      "features": ["再建築不可"],
+      "features": [
+        "再建築不可"
+      ],
       "source": "SUUMO",
       "url": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/"
     },
@@ -132,7 +151,9 @@
       "name": "練馬区北町８丁目 再建築不可中古戸建",
       "price": "未公開",
       "area": "練馬区",
-      "features": ["再建築不可"],
+      "features": [
+        "再建築不可"
+      ],
       "source": "SUUMO",
       "url": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/"
     },
@@ -141,7 +162,9 @@
       "name": "杉並区和田一丁目・中古一戸建（再建築不可）",
       "price": "未公開",
       "area": "杉並区",
-      "features": ["再建築不可"],
+      "features": [
+        "再建築不可"
+      ],
       "source": "SUUMO",
       "url": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/"
     },
@@ -151,7 +174,10 @@
       "price": "980万円",
       "area": "練馬区",
       "station": "東武練馬駅",
-      "features": ["再建築不可？", "築浅"],
+      "features": [
+        "再建築不可？",
+        "築浅"
+      ],
       "source": "SUUMO",
       "url": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/"
     },
@@ -172,7 +198,12 @@
       "floor_area_ratio": "200%",
       "zoning": "第１種中高層住居専用地域",
       "restriction": "再建築不可",
-      "features": ["再建築不可", "民泊運営中（表面利回り11.14%）", "令和6年3月リフォーム済", "オーナーチェンジ"],
+      "features": [
+        "再建築不可",
+        "民泊運営中（表面利回り11.14%）",
+        "令和6年3月リフォーム済",
+        "オーナーチェンジ"
+      ],
       "surrounding": "鎌倉保育園徒步7分/葛飾区立鎌倉図書館徒步5分/鎌倉郵便局徒步8分",
       "source": "LIFULL HOME'S/ハウスドゥ小岩駅前",
       "url": "https://www.homes.co.jp/kodate/b-1118600001766/"
@@ -194,15 +225,17 @@
       "floor_area_ratio": "200%",
       "zoning": "第１種中高層住居専用地域",
       "restriction": "再建築不可（建築基準法道路に未接道）",
-      "features": ["再建築不可", "建築基準法道路に未接道", "契約不適合責任免责", "即引渡可"],
+      "features": [
+        "再建築不可",
+        "建築基準法道路に未接道",
+        "契約不適合責任免责",
+        "即引渡可"
+      ],
       "source": "SUUMO/徳丸住宅販売",
       "url": "https://www.homes.co.jp/kodate/b-39030740000946/"
     }
   ],
-  "search_urls": {
-    "suumo": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/",
-    "homes": "https://www.homes.co.jp/kodate/chuko/theme/11124/tokyo/23ku-mcity/",
-    "stepon": "https://www.stepon.co.jp/kodate/area_13/list_13_100/cs_01_02/",
-    "yahoo": "https://realestate.yahoo.co.jp/used/house/search/03/13/theme/14/"
-  }
+  "lastUpdated": "2026-04-24T00:35:50.478Z",
+  "totalCount": 12,
+  "newCount": 0
 }
