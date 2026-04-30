@@ -76,7 +76,25 @@
       "source": "WebSearch 2026-04-19"
     }
   ],
-  "lastUpdated": "2026-04-29T02:11:22.999Z",
-  "totalCount": 5,
-  "newCount": 0
+    {
+      "id": "camping_setouchi_mushiake_1",
+      "areaId": "broad",
+      "name": "瀬戸内市邑久町虫明 海望大型売地（977坪）",
+      "address": "岡山県瀬戸内市邑久町虫明",
+      "price": "450万円（坪単価約4,600円）",
+      "landArea": "3,230㎡（約977坪）",
+      "tsubo": "977坪",
+      "zoning": "要確認（地目:山林）",
+      "roadAccess": "要確認（虫明漁港・牛窓方面）",
+      "campingNote": "瀬戸内海に近い大型山林売地。500坪以上の条件を満たす。海景・瀬戸内海望あり。虫明港（旧国道250号沿い）は牛窓・小豆島連絡船エリアに近い。グランピング・キャンプ場開発に適した規模。法規制（農地転用・自然公園法）要確認。",
+      "scenery": "瀬戸内海・島嶼群・海望あり",
+      "seaView": true,
+      "url": "https://www.ok-smile.jp/property/detail?p_no=000000263645",
+      "fitScore": "○ 規模適合・要現地確認",
+      "source": "住まいる岡山 物件番号00045187 / WebSearch 2026-04-30"
+    }
+  ],
+  "lastUpdated": "2026-04-30T11:00:00.000Z",
+  "totalCount": 6,
+  "newCount": 1
 }
