@@ -1,6 +1,59 @@
 {
-  "properties": [],
-  "lastUpdated": "2026-05-06T02:07:31.438Z",
-  "totalCount": 0,
-  "newCount": 0
+  "properties": [
+    {
+      "id": "camping_20260507_001",
+      "name": "たまの湯キャンプ場（参考施設・事業継承候補）",
+      "area": "宇野港周辺",
+      "type": "既存グランピング施設",
+      "price": "要交渉",
+      "size": "不明",
+      "ocean_view": true,
+      "url": "https://www.unokotochi.jp/business/usp/",
+      "notes": "JR宇野駅徒歩3分・宇野港至近。温泉付きグランピング施設。直島フェリー客流アクセス至便。",
+      "status": "参考施設",
+      "date_found": "2026-05-07"
+    },
+    {
+      "id": "camping_20260507_002",
+      "name": "てんとうみ（旧：渋川キャンプ場）（参考施設・事業継承候補）",
+      "area": "渋川海岸",
+      "type": "既存民間キャンプ場",
+      "price": "要交渉",
+      "size": "不明",
+      "ocean_view": true,
+      "url": "https://www.nap-camp.com/okayama/10193",
+      "notes": "玉野市より民間移管済。渋川海岸沿い。周辺追加用地取得の可能性あり。",
+      "status": "参考施設",
+      "date_found": "2026-05-07"
+    },
+    {
+      "id": "camping_20260507_003",
+      "name": "渋川3丁目 住宅用地（地価参考値）",
+      "area": "渋川海岸",
+      "type": "住宅用地（条件外・参考）",
+      "price": "689万円",
+      "size": "284.74m²（約86坪）",
+      "ocean_view": false,
+      "url": "https://www.athome.co.jp/tochi/6975359162/",
+      "notes": "面積条件外（500坪未満）。渋川エリアの地価水準参考用。約8万円/坪。",
+      "status": "条件外参考",
+      "date_found": "2026-05-07"
+    },
+    {
+      "id": "camping_20260507_004",
+      "name": "resort-glamping.com 事業用地（岡山県内・要問い合わせ）",
+      "area": "瀬戸内広域",
+      "type": "グランピング事業用地",
+      "price": "未公開",
+      "size": "売買約1,000坪・賃貸約900坪",
+      "ocean_view": null,
+      "url": "https://www.resort-glamping.com/business_site/",
+      "notes": "リゾートグランピングドットコムが岡山県内に事業用地保有。直接問い合わせ推奨。",
+      "status": "リード",
+      "date_found": "2026-05-07"
+    }
+  ],
+  "lastUpdated": "2026-05-07T00:00:00.000Z",
+  "totalCount": 4,
+  "newCount": 4
 }
