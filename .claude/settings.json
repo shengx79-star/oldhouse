@@ -1,0 +1,10 @@
+{
+  "sandbox": {
+    "network": {
+      "allowedDomains": [
+        "api.tavily.com",
+        "api.notion.com"
+      ]
+    }
+  }
+}
