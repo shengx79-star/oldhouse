@@ -51,9 +51,35 @@
       "notes": "リゾートグランピングドットコムが岡山県内に事業用地保有。直接問い合わせ推奨。",
       "status": "リード",
       "date_found": "2026-05-07"
+    },
+    {
+      "id": "camping_20260510_001",
+      "name": "玉野市築港4丁目 売地（参考・面積条件外）",
+      "area": "宇野港周辺",
+      "type": "売地（住宅用地）",
+      "price": "2898万円",
+      "size": "591.69m²（約179坪）",
+      "ocean_view": true,
+      "url": "https://www.ok-smile.jp/property/detail?p_no=000002415242",
+      "notes": "宇野駅近接・港アクセス良好。面積500坪未達だが宇野港エリアの地価参考値。取扱：（有）ぴあかとう TEL:0863-81-6276。",
+      "status": "条件外参考",
+      "date_found": "2026-05-10"
+    },
+    {
+      "id": "camping_20260510_002",
+      "name": "王子が岳レストハウス トライアルサウンディング（公有地・活用公募）",
+      "area": "王子が岳",
+      "type": "公有地（市有施設）",
+      "price": "要問合せ",
+      "size": "未確認",
+      "ocean_view": true,
+      "url": "https://kuratoco.com/ojigadake_resthouse/",
+      "notes": "倉敷市有地。標高234m・瀬戸内海パノラマ・瀬戸大橋全景。2020〜2022年に民間活用公募実施済み。国立公園内のため規制確認要。問い合わせ先：倉敷市文化産業局観光課。",
+      "status": "公有地リード",
+      "date_found": "2026-05-10"
     }
   ],
-  "lastUpdated": "2026-05-09T02:07:59.738Z",
-  "totalCount": 4,
-  "newCount": 0
+  "lastUpdated": "2026-05-10T02:16:00.000Z",
+  "totalCount": 6,
+  "newCount": 2
 }
