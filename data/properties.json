@@ -6,7 +6,7 @@
       "price": "1,980万円",
       "area": "豊島区",
       "address": "東京都豊島区長崎６丁目",
-      "station": "東京メトロ有楽町線「千川아울러 西武池袋・豊島線「江古田zászló徒步12分",
+      "station": "東京メトロ有楽町線「千川」・西武池袋・豊島線「江古田」徒步12分",
       "land_area": "36.28m²(約10.97坪)",
       "building_area": "40.37m²(約12.21坪)",
       "floor": "地上2階建",
@@ -20,7 +20,7 @@
       "features": [
         "再建築不可",
         "2022年11月改装済み",
-        "空了"
+        "空家"
       ],
       "surrounding": "区立長崎６丁目児童遊園徒步2分/豊島区立さくら小学校徒步1分/セブンイレブン徒步5分",
       "source": "住友不動産ステップ",
@@ -32,7 +32,7 @@
       "price": "1,580万円",
       "area": "江戸川区",
       "address": "東京都江戸川区西瑞江３丁目",
-      "station": "都営新宿線「瑞江BQUM徒步12分/都営新宿線「一之江</minimax:tool_call>徒步14分",
+      "station": "都営新宿線「瑞江」徒步12分/都営新宿線「一之江」徒步14分",
       "land_area": "59.49m²(約17.99坪)(セットバック8.51m²含む)",
       "building_area": "49.59m²(約15.00坪)",
       "floor": "地上2階建",
@@ -42,11 +42,11 @@
       "coverage_ratio": "50%",
       "floor_area_ratio": "100%",
       "zoning": "第１種中高層住居専用地域",
-      "restriction": "",
+      "restriction": "現状渡し",
       "features": [
         "南西向き",
         "陽当たり良好",
-        "空了",
+        "空家",
         "地上権登記あり"
       ],
       "surrounding": "ヤマイチ今井店徒步2分/コモディイイダ徒步4分/区立下鎌田小学校徒步5分/西瑞江みのり公園徒步2分",
@@ -56,9 +56,10 @@
     {
       "id": "stepon-003",
       "name": "江戸川区北小岩４丁目借地権付き戸建",
-      "price": "未公開",
+      "price": "要確認",
       "area": "江戸川区",
-      "station": "京成本線「江戸川</minimax:tool_call>徒步5分",
+      "station": "京成本線「江戸川」徒步5分",
+      "restriction": "借地権付き",
       "features": [
         "借地権付き"
       ],
@@ -71,7 +72,7 @@
       "price": "2,000万円",
       "area": "杉並区",
       "address": "東京都杉並区和泉１丁目",
-      "station": "京王線「笹塚徒步14分/京王線「代田橋徒步9分/東京メトロ方南支線「方南町徒步13分",
+      "station": "京王線「笹塚」徒步14分/京王線「代田橋」徒步9分/東京メトロ方南支線「方南町」徒步13分",
       "land_area": "46.07m²(約13.93坪)",
       "building_area": "65.19m²(約19.71坪)",
       "floor": "地上2階建",
@@ -94,9 +95,9 @@
     {
       "id": "stepon-005",
       "name": "江戸川区興宮町戸建",
-      "price": "未公開",
+      "price": "要確認",
       "area": "江戸川区",
-      "station": "総武線「小岩”工程バス7分徒步7分",
+      "station": "総武線「小岩」バス7分徒步7分",
       "features": [
         "整形地",
         "コンビニまで徒步1分"
@@ -110,7 +111,7 @@
       "price": "1,980万円",
       "area": "荒川区",
       "address": "東京都荒川区南千住６丁目",
-      "station": "常磐線「南千住徒步9分/東京メトロ日比谷線「南千住徒步10分/京成本線「千住大橋徒步8分",
+      "station": "常磐線「南千住」徒步9分/東京メトロ日比谷線「南千住」徒步10分/京成本線「千住大橋」徒步8分",
       "land_area": "26.67m²(約8.06坪)(セットバック12.00m²含む/私道負担10.42m²)",
       "building_area": "51.32m²(約15.52坪)(地下室10.72m²含む)",
       "floor": "地上3階地下1階建",
@@ -120,12 +121,12 @@
       "coverage_ratio": "80%",
       "floor_area_ratio": "240%",
       "zoning": "準工業地域",
-      "restriction": "",
+      "restriction": "訳あり（私道負担あり）",
       "features": [
         "4路線2駅利用可",
         "角地",
         "投資用としても利用可",
-        "空了"
+        "空家"
       ],
       "surrounding": "ライフ南千住店徒步3分/ポンテポルタ千住徒步9分/天王公園徒步2分",
       "source": "住友不動産ステップ",
@@ -133,13 +134,14 @@
     },
     {
       "id": "suumo-001",
-      "name": "江東区大島2丁目 中古戸建 ※再建築不可※",
-      "price": "未公開",
+      "name": "江東区大島2丁目 中古戸建（再建築不可）",
+      "price": "要確認",
       "area": "江東区",
       "address": "江東区大島2丁目",
-      "station": "都営新宿線「西大島》记者5分",
+      "station": "都営新宿線「西大島」徒步5分",
       "land_area": "93.28m²",
       "building_area": "92.33m²",
+      "restriction": "再建築不可",
       "features": [
         "再建築不可"
       ],
@@ -149,8 +151,9 @@
     {
       "id": "suumo-002",
       "name": "練馬区北町８丁目 再建築不可中古戸建",
-      "price": "未公開",
+      "price": "要確認",
       "area": "練馬区",
+      "restriction": "再建築不可",
       "features": [
         "再建築不可"
       ],
@@ -159,9 +162,10 @@
     },
     {
       "id": "suumo-003",
-      "name": "杉並区和田一丁目・中古一戸建（再建築不可）",
-      "price": "未公開",
+      "name": "杉並区和田一丁目 中古一戸建（再建築不可）",
+      "price": "要確認",
       "area": "杉並区",
+      "restriction": "再建築不可",
       "features": [
         "再建築不可"
       ],
@@ -170,13 +174,14 @@
     },
     {
       "id": "suumo-004",
-      "name": "練馬区徳丸６（東武練馬駅）",
+      "name": "練馬区徳丸６丁目（東武練馬駅）再建築不可戸建",
       "price": "980万円",
       "area": "練馬区",
-      "station": "東武練馬駅",
+      "station": "東武東上線「東武練馬」",
+      "restriction": "再建築不可",
       "features": [
-        "再建築不可？",
-        "築浅"
+        "再建築不可",
+        "格安"
       ],
       "source": "SUUMO",
       "url": "https://suumo.jp/b/kodate/kw/%E6%9D%B1%E4%BA%AC%EF%BC%92%EF%BC%93%E5%8C%BA%E3%80%80%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF%E3%80%80%E4%B8%AD%E5%8F%A4%E3%80%80%E6%88%B8%E5%BB%BA%E3%81%A6/"
@@ -213,7 +218,7 @@
       "name": "板橋区徳丸６丁目戸建（再建築不可）",
       "price": "980万円",
       "area": "板橋区",
-      "address": "東京都板橋区徳丸６",
+      "address": "東京都板橋区徳丸６丁目",
       "station": "東武東上線「東武練馬」徒步14分",
       "land_area": "66.83m²",
       "building_area": "61.94m²",
@@ -228,14 +233,92 @@
       "features": [
         "再建築不可",
         "建築基準法道路に未接道",
-        "契約不適合責任免责",
+        "契約不適合責任免責",
         "即引渡可"
       ],
-      "source": "SUUMO/徳丸住宅販売",
+      "source": "LIFULL HOME'S/徳丸住宅販売",
       "url": "https://www.homes.co.jp/kodate/b-39030740000946/"
+    },
+    {
+      "id": "ink-001",
+      "name": "杉並区方南1丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "杉並区",
+      "address": "東京都杉並区方南1丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/2552"
+    },
+    {
+      "id": "ink-002",
+      "name": "江東区亀戸6丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "江東区",
+      "address": "東京都江東区亀戸6丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/4878"
+    },
+    {
+      "id": "ink-003",
+      "name": "墨田区墨田4丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "墨田区",
+      "address": "東京都墨田区墨田4丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/2345"
+    },
+    {
+      "id": "ink-004",
+      "name": "葛飾区新小岩1丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "葛飾区",
+      "address": "東京都葛飾区新小岩1丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/2321"
+    },
+    {
+      "id": "ink-005",
+      "name": "中野区南台5丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "中野区",
+      "address": "東京都中野区南台5丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/1913"
+    },
+    {
+      "id": "ink-006",
+      "name": "江東区亀戸8丁目戸建（再建築不可）",
+      "price": "要確認",
+      "area": "江東区",
+      "address": "東京都江東区亀戸8丁目",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/2301"
     }
   ],
-  "lastUpdated": "2026-05-23T00:05:25.082Z",
-  "totalCount": 12,
-  "newCount": 0
+  "lastUpdated": "2026-05-24T00:00:00.000Z",
+  "totalCount": 18,
+  "newCount": 6
 }
