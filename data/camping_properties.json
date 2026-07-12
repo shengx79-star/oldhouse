@@ -158,8 +158,23 @@
       "status": "リード",
       "date_found": "2026-06-08"
     }
+    ,{
+      "id": "camping_20260712_001",
+      "areaId": "uno_port",
+      "name": "宇野港土地株式会社 無人島キャンプ事業（参考施設・提携検討候補）",
+      "area": "宇野港周辺",
+      "address": "岡山県玉野市 宇野港発着（瀬戸内海無人島）",
+      "type": "既存キャンプ事業（無人島）",
+      "price": "要交渉",
+      "size": "不明",
+      "ocean_view": true,
+      "url": "https://www.unokotochi.jp/business/camp/",
+      "notes": "宇野港土地株式会社が瀬戸内海の無人島で1日1組限定プライベートキャンプを運営。カヤック・SUP・BBQ可能。直島フェリー港隣接・宇野港発着。たまの湯キャンプ場と同じ運営母体。グランピング事業提携・隣接用地共同開発の可能性あり。",
+      "status": "参考施設",
+      "date_found": "2026-07-12"
+    }
   ],
-  "lastUpdated": "2026-07-11T02:04:55.241Z",
-  "totalCount": 10,
-  "newCount": 0
+  "lastUpdated": "2026-07-12T09:00:00.000Z",
+  "totalCount": 11,
+  "newCount": 1
 }
