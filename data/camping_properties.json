@@ -157,8 +157,8 @@
       "ocean_view": null,
       "status": "リード",
       "date_found": "2026-06-08"
-    }
-    ,{
+    },
+    {
       "id": "camping_20260712_001",
       "areaId": "uno_port",
       "name": "宇野港土地株式会社 無人島キャンプ事業（参考施設・提携検討候補）",
@@ -174,7 +174,7 @@
       "date_found": "2026-07-12"
     }
   ],
-  "lastUpdated": "2026-07-12T09:00:00.000Z",
+  "lastUpdated": "2026-07-13T02:05:24.075Z",
   "totalCount": 11,
-  "newCount": 1
+  "newCount": 0
 }
