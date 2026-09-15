@@ -316,9 +316,82 @@
       ],
       "source": "インクコーポレーション",
       "url": "https://saikenfuka.jp/archives/2301"
+    },
+    {
+      "id": "ink-new-001",
+      "name": "葛飾区青砥戸建（再建築不可・プレハブ）",
+      "price": "1,480万円",
+      "area": "葛飾区",
+      "address": "東京都葛飾区青砥",
+      "station": "京成本線「青砥」徒歩6分",
+      "land_area": "29.09m²",
+      "building_area": "35.72m²",
+      "layout": "1DK",
+      "structure": "プレハブ",
+      "restriction": "再建築不可（接道義務未充足）",
+      "features": [
+        "再建築不可",
+        "現状渡し",
+        "駅近"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/category/sale/sale_tokyo",
+      "found_date": "2026-09-15"
+    },
+    {
+      "id": "jmty-new-001",
+      "name": "板橋区内戸建（再建築不可・旗竿地）",
+      "price": "1,080万円",
+      "area": "板橋区",
+      "address": "東京都板橋区",
+      "station": "板橋区内（詳細確認要）",
+      "restriction": "再建築不可（未接道・旗竿地）",
+      "features": [
+        "再建築不可",
+        "格安",
+        "旗竿地"
+      ],
+      "source": "ジモティー",
+      "url": "https://jmty.jp/tokyo/est-buy-kw-%E5%86%8D%E5%BB%BA%E7%AF%89%E4%B8%8D%E5%8F%AF",
+      "found_date": "2026-09-15"
+    },
+    {
+      "id": "ink-new-002",
+      "name": "No.050 荒川区東日暮里3丁目戸建（再建築不可）",
+      "price": "2,980万円",
+      "area": "荒川区",
+      "address": "東京都荒川区東日暮里3丁目",
+      "station": "三河島駅 徒歩2分",
+      "layout": "3DK",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可",
+        "駅至近2分",
+        "民宿転用検討候補"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/2550",
+      "found_date": "2026-09-15"
+    },
+    {
+      "id": "ink-new-003",
+      "name": "No.R012 江戸川区平井4丁目戸建（再建築不可）",
+      "price": "2,380万円",
+      "area": "江戸川区",
+      "address": "東京都江戸川区平井4丁目",
+      "station": "平井駅 徒歩7分",
+      "layout": "3K+2ロフト",
+      "restriction": "再建築不可",
+      "features": [
+        "再建築不可",
+        "複数間取り"
+      ],
+      "source": "インクコーポレーション",
+      "url": "https://saikenfuka.jp/archives/3103",
+      "found_date": "2026-09-15"
     }
   ],
-  "lastUpdated": "2026-06-18T09:00:00.000Z",
-  "totalCount": 18,
-  "newCount": 0
+  "lastUpdated": "2026-09-15T09:00:00.000Z",
+  "totalCount": 23,
+  "newCount": 5
 }
