@@ -7,6 +7,7 @@
 const { Client } = require("@notionhq/client");
 const fs = require("fs");
 const path = require("path");
+const { HttpsProxyAgent } = require("https-proxy-agent");
 
 // Configuration
 const NOTION_TOKEN = "ntn_Q4962668635925IEpCuvPV2JTIjQfmL7tqINE5TncJc1RJ";
@@ -35,8 +36,14 @@ const REPORT_PATH = reportArg
   ? path.join(__dirname, "..", "data", path.basename(reportArg, ".md") + ".md")
   : path.join(__dirname, "..", "data", DEFAULT_REPORT);
 
-// Initialize Notion client
-const notion = new Client({ auth: NOTION_TOKEN });
+// Initialize Notion client with proxy support
+const proxyAgent = process.env.HTTPS_PROXY ? new HttpsProxyAgent(process.env.HTTPS_PROXY) : undefined;
+const nodeFetchPkg = proxyAgent ? require("node-fetch") : null;
+const nodeFetch = nodeFetchPkg ? (nodeFetchPkg.default || nodeFetchPkg) : null;
+const notionFetch = proxyAgent
+  ? (url, init) => nodeFetch(url, { ...init, agent: proxyAgent })
+  : undefined;
+const notion = new Client({ auth: NOTION_TOKEN, ...(notionFetch ? { fetch: notionFetch } : {}) });
 
 // Get today's date in Japan timezone
 function getTodayDate() {
