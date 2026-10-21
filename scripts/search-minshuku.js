@@ -178,7 +178,16 @@ function generateReport(properties) {
 }
 
 async function tavilySearch(query, apiKey) {
-  const res = await fetch("https://api.tavily.com/search", {
+  const nodeFetch = require("node-fetch");
+  const { HttpsProxyAgent } = require("https-proxy-agent");
+  const fs = require("fs");
+
+  const fetchFn = nodeFetch.default || nodeFetch;
+  const proxyOpts = process.env.HTTPS_PROXY
+    ? { agent: new HttpsProxyAgent(process.env.HTTPS_PROXY, { ca: fs.readFileSync("/root/.ccr/ca-bundle.crt") }) }
+    : {};
+
+  const res = await fetchFn("https://api.tavily.com/search", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -188,6 +197,7 @@ async function tavilySearch(query, apiKey) {
       max_results: 5,
       include_answer: true,
     }),
+    ...proxyOpts,
   });
   if (!res.ok) throw new Error(`Tavily API error: ${res.status}`);
   return res.json();
